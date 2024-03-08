@@ -4,9 +4,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install 7zip
 choco install git
 choco install gh
+choco install tortoisegit
 choco install lazygit
+choco install delta
 choco install autohotkey
 choco install python
+choco install neovim
+choco install strawberryperl # for latexmk
 
 # dir
 mkdir c:\git
@@ -19,6 +23,7 @@ choco install notepadplusplus
 choco install firefox
 choco install gimp
 choco install kicad
+choco install audacity
 
 # install last (slow)
 choco install miktex
